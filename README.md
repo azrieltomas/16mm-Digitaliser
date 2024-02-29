@@ -15,14 +15,14 @@ TO DO: Add model diagram
 ```
 
 ### Controller
-Each perforation sensor has two fine tuning methods: Gain (affects sensor output level) and Cutoff (affects reference level).
-The gain and cutoff signals are compared with an LM741 to determine if a perforation is sensed.
-This is adjustable to compensate for light sections along the film edge that are not perforations, but are still picked up by the sensor.
-Both perforation sensors are connected by an AND gate to a counter to further filter out non-perforations on single sides of the film.
-For single perforation film, a switch sets the sense2 output to always on.
-Once the counter has reaches four, it triggers the camera, and resets on five via an AND gate on QA and QC.
-The motor can be switched on/off via a buffer circuit. I have used a BUL128 only because I have spares, and they're the only transistor on hand that can handle the motor current.
-It is probably wise to put a flyback diode on the motor.
+Each perforation sensor has two fine tuning methods: Gain (affects sensor output level) and Cutoff (affects reference level).\
+The gain and cutoff signals are compared with an LM741 to determine if a perforation is sensed.\
+This is adjustable to compensate for light sections along the film edge that are not perforations, but are still picked up by the sensor.\
+Both perforation sensors are connected by an AND gate to a counter to further filter out non-perforations on single sides of the film.\
+For single perforation film, a switch sets the sense2 output to always on.\
+Once the counter has reaches four, it triggers the camera, and resets on five via an AND gate on QA and QC.\
+The motor can be switched on/off via a buffer circuit. I have used a BUL128 only because I have spares, and they're the only transistor on hand that can handle the motor current.\
+It is probably wise to put a flyback diode on the motor.\
 
 ![Circuit Design](images/KiCAD_Design.png)\
 *Controller Design (KiCAD)*
