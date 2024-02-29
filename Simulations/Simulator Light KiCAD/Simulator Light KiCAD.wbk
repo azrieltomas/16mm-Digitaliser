@@ -1,0 +1,20 @@
+version 2
+1
+9
+.tran 10u 100m{return}.kicad adjustpaths{return}.save all{return}.probe alli
+5
+1
+V(Net-_Q1-B_)
+ 
+1
+V(Net-_Q1-C_)
+ 
+1
+V(Net-_R1-Pad2_)
+ 
+1
+V(Net-_U1-+_)
+ 
+1
+V(Net-_U1--_)
+ 

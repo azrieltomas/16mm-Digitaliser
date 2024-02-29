@@ -1,0 +1,5 @@
+# ignore FreeCAD Backups
+3DPrints/*.FCBak
+
+# ignore KiCAD backup files
+*-backups
