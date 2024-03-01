@@ -10,9 +10,8 @@ As 5+ frames can fit on the digital capture, photographs are taken every 5 frame
 ### Parts
 Parts for aligning the film and holding the sensors are from various 3D prints.
 
-```
-TO DO: Add model diagram
-```
+![Parts Design](images/FreeCAD_Design.png)\
+*Physical Parts Layout (FreeCAD)*
 
 ### Controller
 Each perforation sensor has two fine tuning methods:
